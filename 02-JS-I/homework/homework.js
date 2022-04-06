@@ -31,7 +31,7 @@ function devolverString(str) {
   return str
 }
 
-function sumar(y, x) {
+function sumar(x, y) {
   // "x" e "y" son números
   // Sumar "x" e "y" juntos y devuelve el valor
   // Tu código:
@@ -193,7 +193,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-   return "hola" + nombre + "!"
+  return 'Hola ' + nombre + '!'
    
 }
 
