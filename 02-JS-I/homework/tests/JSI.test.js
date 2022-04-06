@@ -78,10 +78,10 @@ describe('devolverString(str)', function() {
   });
 });
 
-describe('suma(x, y)', function() {
-  it('Deberia devolver la suma de los dos argumentos', function() {
-    expect(suma(5, 5)).toBe(10);
-    expect(suma(-1, 5)).toBe(4);
+describe('sumar(x, y)', function() {
+  it('Deberia devolver la sumar de los dos argumentos', function() {
+    expect(sumar(5, 5)).toBe(10);
+    expect(sumar(-1, 5)).toBe(4);
   });
 });
 
