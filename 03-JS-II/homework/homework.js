@@ -15,7 +15,7 @@ function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
-  if(edad > 18){ 
+  if(edad >= 18){ 
     return "Allowed"
   } 
   else{
@@ -74,10 +74,10 @@ function colors(color) {
     return "This is blue"; 
       
     case "red":
-      return "Thnis is red";
+      return "This is red";
     
     case "green":
-      return "Thies is green";
+      return "This is green";
       
      case "orange":
        return "This is orange";
@@ -99,7 +99,7 @@ function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
-  return
+  return(numero < 50 && numero > 20)
 }
 
 function esEntero(numero) {
@@ -110,6 +110,7 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
+
 }
 
 function fizzBuzz(numero) {
@@ -117,6 +118,10 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
+  if(numero % 15 === 0) return 'fizzbuzz';
+  if(numero % 3 === 0) return 'fizz';
+  if(numero % 5 === 0) return 'buzz';
+  return numero;
 }
 
 function operadoresLogicos(num1, num2, num3) {
